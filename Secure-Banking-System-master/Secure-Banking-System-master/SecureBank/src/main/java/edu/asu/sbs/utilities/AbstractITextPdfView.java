@@ -16,7 +16,7 @@ import com.itextpdf.text.pdf.PdfWriter;
 public abstract class AbstractITextPdfView extends AbstractView {
 	 
     public AbstractITextPdfView() {
-        setContentType("application/pdf");
+        setContentType("Application/pdf");
     }
  
     @Override
